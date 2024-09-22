@@ -1,0 +1,26 @@
+/* src/Menu.css */
+nav {
+    background-color: #4CAF50; /* Color de fondo */
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none; /* Eliminar viñetas */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Mostrar en línea */
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white; /* Color del texto */
+    text-decoration: none; /* Sin subrayado */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Subrayado al pasar el mouse */
+}
